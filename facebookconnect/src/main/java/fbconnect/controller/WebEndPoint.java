@@ -12,7 +12,7 @@ public class WebEndPoint {
     protected static String ACCESS_TOKEN_KEY = "access_token";
     protected static String FIELD = "fields";
     protected static final String ID = "id";
-    protected static String BASE = "https://graph.facebook.com/v1.0/";
+    protected static String BASE = "https://graph.facebook.com/v2.10/";
     protected static final String PROFILE = "{" + ID + "}";
     protected static final String FRIEND = "{" + ID + "}/friends";
     protected static final String ALBUM = "{" + ID + "}/albums";
