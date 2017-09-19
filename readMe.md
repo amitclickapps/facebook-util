@@ -1,3 +1,5 @@
+![](https://jitpack.io/v/amitclickapps/facebook-util.svg?style=flat-square)
+
 **How to Use Library**
 
 `FbConnect` is used to call every Method.
@@ -123,4 +125,31 @@ if (resultCode == Activity.RESULT_OK) {
                 }
             }
         }
+```
+
+Download
+--------
+Add the JitPack repository to your root build.gradle:
+
+![](https://jitpack.io/v/amitclickapps/facebook-util.svg?style=flat-square)
+
+
+```groovy
+	allprojects {
+		repositories {
+			maven { url "https://jitpack.io" }
+		}
+	}
+```
+App Gradle
+```groovy
+  repositories {
+    jcenter()
+}
+```
+Add the Gradle dependency:
+```groovy
+	dependencies {
+		compile 'com.github.amitclickapps:facebook-util:latest'
+	}
 ```
