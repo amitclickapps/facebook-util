@@ -141,12 +141,7 @@ Add the JitPack repository to your root build.gradle:
 		}
 	}
 ```
-App Gradle
-```groovy
-  repositories {
-    jcenter()
-}
-```
+
 Add the Gradle dependency:
 ```groovy
 	dependencies {
